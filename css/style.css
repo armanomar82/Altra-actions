@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.google.com/?query=Sacramento');
+
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align:center;
+}
+
+.text-primary {
+  color: yellow;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+
+.bg-primary {
+  background: yellow;
+  color: black;
+}
+
+.l-heading {
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.b-heading {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+  color: yellow;
+  
+  
+}
+
+.btn {
+  display: inline-block;
+  color:yellow;
+  padding: 0.7rem 3rem;
+  border: 1px solid yellow;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+}
+
+.btn:hover {
+  background: yellow;
+  color: black;
+}
+
+/* Showcase */
+#showcase {
+  background: #333 url('../img/Alter\ actions-bg\ -pc.png') no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+  /* Overlay */
+  position: absolute;
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+}
+#main-footer{
+  display: flex;
+  position: relative;
+}
+.social{
+  display:inline-flex;
+  margin-left: 2rem;
+}
+.social .icon{
+  margin: .5rem;
+  
+}
